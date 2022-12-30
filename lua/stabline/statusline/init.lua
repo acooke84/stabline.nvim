@@ -4,6 +4,7 @@ return {
 
     return table.concat {
       modules.mode(),
+      "Hello, World!",
     }
   end
 }
