@@ -11,7 +11,7 @@ M.tabline = function()
 end
 
 M.setup = function()
-  vim.opt.statusline = "%!v:lua.require('stabline').statusline()"
+  vim.opt.statusline = "%!v:helloworld"
 end
 
 return M
