@@ -18,7 +18,7 @@ end
 
 M.setup = function()
   statusline_hl = require("stabline.statusline.highlights")
-  load_highlight(statusline_hl)
+  M.load_highlight(statusline_hl)
 
   vim.opt.statusline = "%!v:lua.require('stabline').statusline()"
 end
