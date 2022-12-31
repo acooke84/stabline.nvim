@@ -4,7 +4,7 @@ local config = require("stabline.config")
 
 M.load_highlight = function(hl_group)
   for hl, col in pairs(group)
-    vim.api.set_hl(0, hl, col)
+    vim.api.nvim_set_hl(0, hl, col)
   end
 end
 
