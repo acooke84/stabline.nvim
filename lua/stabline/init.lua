@@ -3,7 +3,7 @@ local M = {}
 local config = require("stabline.config")
 
 M.load_highlight = function(hl_group)
-  for hl, col in pairs(group) do
+  for hl, col in pairs(hl_group) do
     vim.api.nvim_set_hl(0, hl, col)
   end
 end
