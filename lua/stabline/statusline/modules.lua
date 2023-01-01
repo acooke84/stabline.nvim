@@ -1,3 +1,4 @@
+local fn = vim.fn
 local sep_r = " "
 
 local modes = {
